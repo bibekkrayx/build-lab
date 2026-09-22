@@ -1,0 +1,567 @@
+# ============================================================
+# Node.js / JavaScript / TypeScript
+# ============================================================
+
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+.bun/
+bun.lockb
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun-debug.log*
+
+# Runtime logs
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# Build output
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.vercel/
+.netlify/
+.turbo/
+.cache/
+.parcel-cache/
+.vite/
+.svelte-kit/
+storybook-static/
+
+# TypeScript
+*.tsbuildinfo
+
+# ============================================================
+# Environment Variables / Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Common local environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ============================================================
+# React / MERN
+# ============================================================
+
+# React
+.react/
+react-app-env.d.ts
+
+# Create React App
+.eslintcache
+
+# Next.js
+.next/
+out/
+
+# Gatsby
+.cache/
+public/
+
+# Remix
+.build/
+
+# ============================================================
+# Express / Node
+# ============================================================
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Uploads generated locally
+uploads/
+storage/
+
+# ============================================================
+# Database
+# ============================================================
+
+# SQLite
+*.db
+*.db3
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Local SQL dumps / backups
+*.sql.gz
+*.dump
+*.bak
+*.backup
+
+# PostgreSQL
+.pgdata/
+postgres-data/
+
+# MySQL
+mysql-data/
+
+# MariaDB
+mariadb-data/
+
+# MongoDB
+mongodb-data/
+mongo-data/
+
+# Redis
+redis-data/
+dump.rdb
+
+# ============================================================
+# Prisma
+# ============================================================
+
+# Prisma generated client
+node_modules/.prisma/
+node_modules/@prisma/client/
+
+# Prisma local databases
+prisma/*.db
+prisma/*.db-journal
+prisma/*.db-wal
+prisma/*.db-shm
+
+# NOTE:
+# Do NOT ignore prisma/migrations/
+# Prisma migrations should normally be committed.
+
+# ============================================================
+# Drizzle ORM
+# ============================================================
+
+# Drizzle generated migration metadata/temp files
+.drizzle/
+
+# NOTE:
+# Do NOT ignore your actual Drizzle migration directory.
+# Example:
+# drizzle/
+# drizzle/migrations/
+# should normally be committed.
+
+# ============================================================
+# Mongoose / MongoDB
+# ============================================================
+
+# Local MongoDB data
+data/db/
+data/mongodb/
+mongodb/
+mongo/
+
+# ============================================================
+# Docker
+# ============================================================
+
+# Docker local volumes
+.docker/
+docker-data/
+docker-volumes/
+
+# Docker override files
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Docker environment files
+docker/.env
+docker/.env.*
+
+# Docker logs
+docker-logs/
+*.docker.log
+
+# ============================================================
+# VS Code
+# ============================================================
+
+.vscode/*
+!.vscode/settings.json.example
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# VS Code workspace files
+*.code-workspace
+
+# VS Code history
+.history/
+
+# ============================================================
+# IntelliJ IDEA / JetBrains
+# ============================================================
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# JetBrains local history
+.localhistory/
+
+# JetBrains build/system files
+out/
+
+# ============================================================
+# macOS
+# ============================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnail cache
+._*
+
+# Finder metadata
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# ============================================================
+# Windows
+# ============================================================
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumb_vista.db
+
+# Windows installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# ============================================================
+# Linux
+# ============================================================
+
+*~
+.directory
+.Trash-*
+
+# ============================================================
+# Monorepo / Turborepo / Nx
+# ============================================================
+
+# Turborepo
+.turbo/
+
+# Nx
+.nx/
+.nx/cache/
+
+# Lerna
+.lerna/
+
+# Changesets
+.changeset/*.md
+!.changeset/README.md
+
+# Monorepo build outputs
+packages/*/dist/
+apps/*/dist/
+packages/*/build/
+apps/*/build/
+
+# Monorepo caches
+packages/*/.cache/
+apps/*/.cache/
+
+# ============================================================
+# Testing
+# ============================================================
+
+coverage/
+.nyc_output/
+jest-coverage/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# ============================================================
+# ESLint / Prettier
+# ============================================================
+
+.eslintcache
+.stylelintcache
+.prettiercache
+
+# ============================================================
+# Babel
+# ============================================================
+
+.babelrc.local
+
+# ============================================================
+# Vite
+# ============================================================
+
+.vite/
+
+# ============================================================
+# Webpack
+# ============================================================
+
+.webpack/
+.webpack-cache/
+
+# ============================================================
+# Parcel
+# ============================================================
+
+.parcel-cache/
+
+# ============================================================
+# Storybook
+# ============================================================
+
+storybook-static/
+
+# ============================================================
+# Sentry
+# ============================================================
+
+.sentryclirc
+
+# ============================================================
+# Local certificates / HTTPS
+# ============================================================
+
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# Exception: example certificates can be committed
+!*.example.pem
+!*.example.key
+!*.example.crt
+
+# ============================================================
+# Generated files
+# ============================================================
+
+generated/
+generated-files/
+_codegen/
+_codegen/
+*.generated.ts
+*.generated.js
+
+# ============================================================
+# Temporary / Editor files
+# ============================================================
+
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.temp
+*.orig
+*.rej
+
+# Vim
+.vim/
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+
+# Emacs
+*~
+\#*\#
+/.\#*
+
+# ============================================================
+# Debug
+# ============================================================
+
+debug/
+debug.log
+
+# ============================================================
+# Local scripts / scratch files
+# ============================================================
+
+scratch/
+sandbox/
+playground/
+experiments/
+
+# ============================================================
+# OS / IDE metadata
+# ============================================================
+
+*.sublime-workspace
+*.sublime-project
+
+# ============================================================
+# Dependency caches
+# ============================================================
+
+.yarn/cache/
+.yarn/unplugged/
+.yarn/install-state.gz
+.yarn/build-state.yml
+
+# ============================================================
+# Serverless
+# ============================================================
+
+.serverless/
+.aws-sam/
+
+# ============================================================
+# AWS
+# ============================================================
+
+.aws/
+.aws-sam/
+
+# AWS credentials should NEVER be committed
+.aws/credentials
+.aws/config
+
+# ============================================================
+# Firebase
+# ============================================================
+
+.firebase/
+.firebase-debug.log
+
+# ============================================================
+# Vercel
+# ============================================================
+
+.vercel/
+
+# ============================================================
+# Netlify
+# ============================================================
+
+.netlify/
+
+# ============================================================
+# Railway
+# ============================================================
+
+.railway/
+
+# ============================================================
+# Render
+# ============================================================
+
+.render/
+
+# ============================================================
+# Local cloud / deployment files
+# ============================================================
+
+*.local.json
+deployment.local.*
+config.local.*
+
+# ============================================================
+# Secrets / Credentials
+# ============================================================
+
+secrets/
+secret/
+credentials/
+*.secret
+*.credentials
+
+# Private keys
+id_rsa
+id_rsa.pub
+id_dsa
+id_ecdsa
+id_ed25519
+*.pem
+
+# ============================================================
+# API / OAuth credentials
+# ============================================================
+
+client_secret*.json
+service-account*.json
+serviceAccount*.json
+google-credentials*.json
+
+# ============================================================
+# Miscellaneous generated files
+# ============================================================
+
+*.cache
+*.lock
+*.pid
+
+# Keep package manager lockfiles!
+# package-lock.json
+# pnpm-lock.yaml
+# yarn.lock
+# bun.lock
+
+# ============================================================
+# Allow important project configuration
+# ============================================================
+
+!.gitkeep
+!.npmrc
+!.nvmrc
+!.node-version
+!.dockerignore
+!.editorconfig
+!.prettierrc
+!.prettierrc.*
+!.eslintrc
+!.eslintrc.*
+!eslint.config.*
+!tsconfig.json
+!vite.config.*
+!next.config.*
+!docker-compose.yml
+!docker-compose.yaml
